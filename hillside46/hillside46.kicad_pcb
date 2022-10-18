@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./gerber_hillside46")
+      (outputdirectory "/home/akshays/Downloads/hillside46/hillsideview46/pcba/")
     )
   )
 
@@ -5522,7 +5522,7 @@
     (property "Sheetfile" "File: hillside46.kicad_sch")
     (property "Sheetname" "")
     (path "/59b49660-470e-413c-8e82-343367586c1b")
-    (attr through_hole)
+    (attr smd)
     (fp_text reference "J5" (at -2.1844 1.3208 -90) (layer "F.SilkS")
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 4c753daf-f5e4-40a3-9ce9-8a5fb06cb98d)
