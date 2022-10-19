@@ -4,4 +4,5 @@
   (lib (name "nice-nano-kicad")(type "KiCad")(uri "/home/mikael/workspace/dactyl/hillside/lib/nice-nano-kicad")(options "")(descr ""))
   (lib (name "FFC2B28-12-G")(type "KiCad")(uri "/home/akshays/Codes/hillside/lib/FFC2B28-12-G.pretty")(options "")(descr ""))
   (lib (name "XF2M-1215-1A")(type "KiCad")(uri "/home/akshays/Codes/hillside/lib/XF2M-1215-1A.pretty")(options "")(descr ""))
+  (lib (name "wowee")(type "KiCad")(uri "/home/akshays/Codes/hillside/lib/wowee.pretty")(options "")(descr ""))
 )
