@@ -2,4 +2,5 @@
   (lib (name "hillside")(type "KiCad")(uri "${KIPRJMOD}/../lib/hillside.kicad_sym")(options "")(descr ""))
   (lib (name "hillside_basic")(type "KiCad")(uri "${KIPRJMOD}/../lib/hillside_basic.kicad_sym")(options "")(descr ""))
   (lib (name "FFC2B28-12-G")(type "KiCad")(uri "/home/akshays/Codes/hillside/lib/FFC2B28-12-G.kicad_sym")(options "")(descr ""))
+  (lib (name "XF2M-1215-1A")(type "KiCad")(uri "/home/akshays/Codes/hillside/lib/XF2M-1215-1A.kicad_sym")(options "")(descr ""))
 )
