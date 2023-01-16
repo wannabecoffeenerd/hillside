@@ -714,7 +714,7 @@
       "idf": "",
       "netlist": "hillside46.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hillside46.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
