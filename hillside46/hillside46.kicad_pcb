@@ -418,7 +418,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 905312b0-f54d-44e8-8a99-473d0c59ee09)
     )
-    (fp_text user "GND" (at 10.541 -6.858 unlocked) (layer "F.SilkS")
+    (fp_text user "G" (at 10.541 -6.858 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6690d77-2fdc-4f19-8c09-0b727f437599)
     )
