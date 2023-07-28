@@ -1,5 +1,9 @@
 # Hillside View Ergonomic Keyboard
 
+3x6                       |  3x5
+:-------------------------:|:-------------------------:
+![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x6.jpg)  |  ![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x5.jpg)
+
 The Hillside View (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
  wireless (or wired) [40%](https://deskthority.net/wiki/40%25) 
  split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
