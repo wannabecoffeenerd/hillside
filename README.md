@@ -1,31 +1,19 @@
-# Hillside Ergonomic Keyboards
+# Hillside View Ergonomic Keyboard
 
-The Hillsides are 
- [40%](https://deskthority.net/wiki/40%25) 
+The Hillside View (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
+ wireless (or wired) [40%](https://deskthority.net/wiki/40%25) 
  split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
  keyboards with a 
- [column-stagger](https://deskthority.net/wiki/Staggering#Columnar_layout) layout.
- Between them, they differ mostly in whether they have splay and a bottom row:
+ [column-stagger](https://deskthority.net/wiki/Staggering#Columnar_layout) 3x6+5 or a 3x5+5 layout.
 
-| Splayed|<img width=1900/>|
-|:-----------|:----------------|
-| [Hillside 46](hillside46): Like a splayed Feris Sweep on steroids.     | ![Hillside 46](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_600.png) |
-| [Hillside 52](hillside52):  Best all-around, with a utility bottom row or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
-| **Non-Splayed**|   |
-| [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.    |![Hillside 48](https://github.com/mmccoyd/hillside/wiki/image/48/hill48_600.png) |
-| [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys. A tad bulky.  |![Hillside 56](https://github.com/mmccoyd/hillside/wiki/image/family/hill56_600.png) |
+The main features that the HSV adds over the Hillside 46 are:
+- [nice!view](https://github.com/getkeops/keops/tree/main) e-paper display for better battery life
+- Cleaner outer pinky column cut-off
+- Support for a cirque trackpad with an FFC connector on the PCB itself
+- Case design with support for large 750-3000 mAh batteries under the PCB
+- Under PCB mount for the MCU for a cleaner top display mounting
 
-
-Their specific differences are:
-
-| Type | Board      | Layout  | Arrow <br> T | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
-|:-----------|:----------------:|:--------|:----:|:----:|:-------:|:--------|:--:|
-| Splayed     | [46](hillside46) | 3x6+0+5 | no   | 2    | yes     | 3x5+0+5 | 40 |
-|             | [52](hillside52) | 3x6+3+5 | yes  | 3    | yes     | 3x5+2+5 | 44 |
-| Non-Splayed | [48](hillside48) | 3x6+1+5 | no   | 1    | no      | 3x5+1+5 | 42 |
-|             | [56](hillside56) | 3x6+5+5 | yes  | 4    | yes     | 3x5+4+5 | 48 |
-
-The 46 has optional factory parts soldering (PCBA) except for the switches, MCU, TRRS, LEDs, battery switch, and optional hotswap sockets.
+The HSV has optional factory parts soldering (PCBA) except for the switches, MCU, display, TRRS, LEDs, battery switch, and optional hotswap sockets.
 
 Their common features are:
 
@@ -35,7 +23,6 @@ Their common features are:
 - QMK and wireless ZMK firmware
 - Nice!nano battery power switch
 - Encoder support
-- Haptic feedback header
 - Underglow from four or five SK6812-MINI-Es
 - Reversible PCB
 - Detailed BOM and default keyboard rationale.
@@ -43,11 +30,13 @@ Their common features are:
 
 See the board readmes for details, rationales and default keymaps.
 
-*Keycaps*: Hillside boards are _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
+*Keycaps*: Hillside View is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
 
-Hillside includes both 
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
- and [ZMK Firmware](https://github.com/mmccoyd/zmk-config).
+Hillside View includes ZMK Firmware
+- [full size](https://github.com/mike1808/zmk-config)
+- [five column](https://github.com/wannabecoffeenerd/zmk-config)
+
+QMK firmware can be adapeted from the [Hillside firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
 
 
 ## Key Use
@@ -56,21 +45,20 @@ I expect most people will primarily use either the tucked three thumbs or the ex
 
 ## Why
 
-Creating four boards is more than I intended. I wanted closer keys than MX boards, yet a few more keys than the Sweep (hence the 48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys and felt people new to small boards would prefer a physical arrow cluster (hence the 56). But that put the extra keys too far for me, and I realized many 40% boards tuck the arrow cluster partly into the main rows. So I did that with some splay I wanted (hence the 52). But others like a more minimal board, and removing the partial bottom row was easy (hence the 46). So it was really three experiments for me, plus an easy variant.
+The main reason for this project is to make the keyboard more wireless friendly by adding the e-paper display and allowing experimenting with using a cirque trackpad (once ZMK support for it is more stable)
 
 ## Hardware and Build Guide
 
-See the [wiki](https://github.com/mmccoyd/hillside/wiki)
-  for PCB ordering, parts links and a build guide with pictures.
+See the [original Hillside wiki](https://github.com/mmccoyd/hillside/wiki)
+ first for PCB ordering, parts links and a build guide with pictures.
 
-See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
-  on whether it would be difficult to modify these designs.
+See the [HSV wiki](https://github.com/wannabecoffeenerd/hillside/wiki) for HSV specific
+ build guide.
 
 ## Acknowledgments
 
-The excellent Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground.
-Several symbol and footprint files came from that community, as noted in the doc folder.
-The keyboards I have used and read about also influenced these boards, including the
+Several keyboards have influenced this boards, primarily the
+  [Hillside 46](https://github.com/mmccoyd/hillside), but also
   [Atreus](https://shop.keyboard.io/products/keyboardio-atreus),
   [Lily58](https://github.com/kata0510/Lily58),
   [Kyria](https://splitkb.com/collections/keyboard-kits/products/kyria-pcb-kit),
