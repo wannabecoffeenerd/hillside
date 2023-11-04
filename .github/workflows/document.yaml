@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Create doc_out folder with write access
         run: |
@@ -27,7 +27,7 @@ jobs:
           ls -la 
 
       - name: KiBot
-        uses: INTI-CMNB/KiBot@v2_k7
+        uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ./${{ env.BOARD }}/bin/doc.kibot.yaml
           schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
