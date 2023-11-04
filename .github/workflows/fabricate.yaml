@@ -3,15 +3,15 @@ name: Fabricate
 on:
   push:
     paths:
-    - 'hillside46/*.kicad_sch'
-    - 'hillside46/*.kicad_pcb'
-    - 'hillside46/bin/fab.kibot.yaml'
-    - 'hillside46/bin/pos_back.py'
+    - 'hillsideview46/*.kicad_sch'
+    - 'hillsideview46/*.kicad_pcb'
+    - 'hillsideview46/bin/fab.kibot.yaml'
+    - 'hillsideview46/bin/pos_back.py'
     - '.github/workflows/fabricate.yaml'
   workflow_dispatch:
 
 env:
-  BOARD: hillside46
+  BOARD: hillsideview46
 
 jobs:
   generate:

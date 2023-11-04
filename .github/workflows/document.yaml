@@ -3,12 +3,12 @@ name: Document
 on:
   push:
     paths:
-    - 'hillside46/bin/doc.kibot.yaml'
+    - 'hillsideview46/bin/doc.kibot.yaml'
     - '.github/workflows/document.yaml'
   workflow_dispatch:
 
 env:
-  BOARD: hillside46
+  BOARD: hillsideview46
 
 jobs:
   export:
@@ -37,7 +37,7 @@ jobs:
 
       - name: Resize render, zip
         run: |
-          convert doc_out/hillside46-3D_top.png -resize 1200 doc_out/hillside46-3D_1200.png
+          convert doc_out/hillsideview46-3D_top.png -resize 1200 doc_out/hillsideview46-3D_1200.png
           ls -la . doc_out
           cd doc_out
           zip ../${{ env.BOARD }}-Doc.zip *.html *.png *.svg
