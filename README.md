@@ -2,7 +2,7 @@
 
 3x6                       |  3x5
 :-------------------------:|:-------------------------:
-![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x6.jpg)  |  ![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x5.jpg)
+![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillsideview46/doc/image/hsv_3x6.jpg)  |  ![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillsideview46/doc/image/hsv_3x5.jpg)
 
 The Hillside View (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
  wireless (or wired) [40%](https://deskthority.net/wiki/40%25) 
@@ -58,6 +58,10 @@ See the [original Hillside wiki](https://github.com/mmccoyd/hillside/wiki)
 
 See the [HSV wiki](https://github.com/wannabecoffeenerd/hillside/wiki) for HSV specific
  build guide.
+
+ ## 3DP case
+
+ The HSV is designed to be used with a 3D printed case. STLs for the case are [here](https://github.com/wannabecoffeenerd/hillside/tree/main/hillsideview46/case)
 
 ## Acknowledgments
 
