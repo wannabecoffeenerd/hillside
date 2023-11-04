@@ -2,9 +2,9 @@
 
 3x6                       |  3x5
 :-------------------------:|:-------------------------:
-![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x6.jpg)  |  ![](https://github.com/wannabecoffeenerd/hillside/blob/main/hillside46/doc/image/hsv_3x5.jpg)
+![](https://github.com/wannabecoffeenerd/HillSideView/blob/main/hillsideview46/doc/image/hsv_3x6.jpg)  |  ![](https://github.com/wannabecoffeenerd/HillSideView/blob/main/hillsideview46/doc/image/hsv_3x5.jpg)
 
-The Hillside View (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
+The HillSideView (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
  wireless (or wired) [40%](https://deskthority.net/wiki/40%25) 
  split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
  keyboards with a 
@@ -34,13 +34,13 @@ Their common features are:
 
 See the board readmes for details, rationales and default keymaps.
 
-*Keycaps*: Hillside View is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
+*Keycaps*: HillSideView is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps) or [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
 
-Hillside View includes ZMK Firmware
+HillSideView includes ZMK Firmware
 - [full size](https://github.com/mike1808/zmk-config)
 - [five column](https://github.com/wannabecoffeenerd/zmk-config)
 
-QMK firmware can be adapeted from the [Hillside firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
+QMK firmware can be adapted from the [Hillside firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
 
 
 ## Key Use
@@ -56,8 +56,12 @@ The main reason for this project is to make the keyboard more wireless friendly 
 See the [original Hillside wiki](https://github.com/mmccoyd/hillside/wiki)
  first for PCB ordering, parts links and a build guide with pictures.
 
-See the [HSV wiki](https://github.com/wannabecoffeenerd/hillside/wiki) for HSV specific
+See the [HSV wiki](https://github.com/wannabecoffeenerd/HillSideView/wiki) for HSV specific
  build guide.
+
+ ## 3DP case
+
+ The HSV is designed to be used with a 3D printed case. STLs for the case are [here](https://github.com/wannabecoffeenerd/HillSideView/tree/main/hillsideview46/case)
 
 ## Acknowledgments
 
