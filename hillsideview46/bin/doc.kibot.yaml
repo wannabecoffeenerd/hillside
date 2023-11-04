@@ -100,7 +100,7 @@ outputs:
       count_smd_tht: true
       exclude_filter: mechanical
       html:
-        title: "Hillside 46 Bill of Materials"
+        title: "HillSideView 46 Bill of Materials"
         highlight_empty: false
 
 
