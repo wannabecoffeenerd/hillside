@@ -27,7 +27,7 @@ jobs:
           ls -la 
 
       - name: KiBot
-        uses: INTI-CMNB/KiBot@v2_k6
+        uses: INTI-CMNB/KiBot@v2_k6_1_6_2
         with:
           config: ./${{ env.BOARD }}/bin/doc.kibot.yaml
           schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
