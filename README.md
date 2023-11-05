@@ -7,7 +7,7 @@
 The HillSideView (HSV) is a modified version of the [Hillside 46](https://github.com/mmccoyd/hillside). It is a 
  wireless (or wired) [40%](https://deskthority.net/wiki/40%25) 
  split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
- keyboards with a 
+ keyboard with a 
  [column-stagger](https://deskthority.net/wiki/Staggering#Columnar_layout) 3x6+5 or a 3x5+5 layout.
 
 The main features that the HSV adds over the Hillside 46 are:
@@ -15,11 +15,12 @@ The main features that the HSV adds over the Hillside 46 are:
 - Cleaner outer pinky column cut-off
 - Support for a cirque trackpad with an FFC connector on the PCB itself
 - Case design with support for large 750-3000 mAh batteries under the PCB
+- Magnetic tenting stand with the case
 - Under PCB mount for the MCU for a cleaner top display mounting
 
 The HSV has optional factory parts soldering (PCBA) except for the switches, MCU, display, TRRS, LEDs, battery switch, and optional hotswap sockets.
 
-Their common features are:
+Other features of the HSV are:
 
 - Choc-spaced keys, aggressive stagger, five thumb keys
 - Break-off outer pinkie column
@@ -31,8 +32,6 @@ Their common features are:
 - Reversible PCB
 - Detailed BOM and default keyboard rationale.
 - SMT diodes, resistors, capacitors, and reset switch
-
-See the board readmes for details, rationales and default keymaps.
 
 *Keycaps*: HillSideView is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps) or [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
 
@@ -63,7 +62,7 @@ See the [original Hillside wiki](https://github.com/mmccoyd/hillside/wiki)
 See the [HSV wiki](https://github.com/wannabecoffeenerd/HillSideView/wiki) for HSV specific
  build guide.
 
- ### Build of Materials (BOM)
+ ### Bill of Materials (BOM)
 
 | **Component**                          | **Quantity per keeb** | **URL**                                                                                                 | **Source**      | **Price Per SKU** |
 |----------------------------------------|-----------------------|---------------------------------------------------------------------------------------------------------|-----------------|-------------------|
